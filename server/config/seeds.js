@@ -18,174 +18,131 @@ db.once('open', async () => {
 
     const products = await Product.insertMany([
         {
-            name: 'Dog Pack Chambray Bandana in Vintage Red',
-            description:
-                `Protectors of the spirit -- a guardian symbol for your life & home
-
-                Hang on the wall, tie around your neck, tuck in a back pocket on your trails. Hand printed on black chambray & vintage red cotton with serged contrast hem.
-                
-                Details:
-                
-                ∙ Vintage Red: 100% Cotton // Black: 100% Cotton Slub Chambray 
-                ∙ Approx. 21.5" square`,
-            origin: `Made in the USA, by Eradura // Hand Printed by Noisy Neighbors Print`,
+            name: 'Blue Gold Boho Mandala Hoodie ',
+            description:`Our blue & gold boho mandala hoodie is custom-made-to-order and handcrafted to the highest quality standards. This spiritual pull over sweater features golden mandalas on a blue grunge background.`,
+            origin: `Made in USA`,
             image: 'MandalaHoodie.jpg',
             category: categories[0]._id,
             price: 28.00,
             quantity: 15
         },
         {
-            name: 'Baja Loreto 2.0',
+            name: 'Cottagecore cute 2 piece fall sweater plaid wool dress, Dark Academia Clothing,Fall dress',
             description:
                 `Woven and Sewn Palm handmade by artisans in Mexico. Its traditional fedora style crown with a relatively short brim. The custom piping consisting of discarded and up-cycled fabric.
 
                 100% Palm
                 
                 3” brim`,
-            origin: `Made in Mexico`,
-            image: 'bajaloreto00-540x.jpg',
+            origin: `Made in USA`,
+            image: 'CottageDress.jpg',
             category: categories[0]._id,
             price: 70.00,
             quantity: 5
         },
         {
-            name: 'Fearless Femme Pink Glitter Pin',
+            name: 'Beautiful Swarovski Crystals and Fresh Water Pearls Jewelry Set',
             category: categories[1]._id,
             description:
-                `1.25" wide hard enamel pin, gold metal filled with pink glitter, paired with a backing card and sealed in a clear sleeve.`,
+                `Beautiful and elegant set made with the highest quality imported Swarovski crystals and fresh water pearls.`,
             origin: `N/A`,
-            image: 'fearlessfemmes00-360x.jpg',
-            price: 11.00,
+            image: 'JewelrySet.jpg',
+            price: 100.00,
             quantity: 20
         },
         {
-            name: 'Girls Unite Pin',
+            name: 'Linen Face Mask with Nose Wire, Hight Quality Masks, Linen mask, Dust Mask, Adult and Kid Mask, 100% Natural Mask, Best mask, Face Cover',
             category: categories[1]._id,
             description:
-                `1.35" wide hard enamel pin in rose gold metal with white and rose inks, paired with a backing card and sealed in a clear sleeve`,
+                `BALTIC BLOOM masks are high quality masks sewn with love and care; we are using high quality stone washed linen in many color variations.`,
             origin: `N/A`,
-            image: 'girlsunite00-360x.jpg',
-            price: 12.00,
+            image: 'FaceMask.jpg',
+            price: 6.00,
             quantity: 5
         },
         {
-            name: `Shit Doesn’t Have To Make Sense Pin`,
+            name: `Wooden Watch`,
             category: categories[1]._id,
             description:
-                `Logic? Reason? You don't need that kind of negativity in your life. When you just need to peace out and be a mermaid for a while, we've got your number.
-
-                1.25" x 0.5" enamel pin.`,
-            origin: `N/A`,
-            image: 'doesntmake00-360x.jpg',
-            price: 12.00,
+                `This WILD wood watch is precision crafted from sandalwood and features a wooden strap finely polished to bring out the grain and colour of the natural wood. This timepiece features modern and timeless design with a stylish black face that features hourly markers, calendar date, day of the week and 24-hour display. The Gold trims provide a unique blend of vintage and modern design.`,
+            origin: `Made in USA`,
+            image: 'WoodWatch.jpg',
+            price: 200.00,
             quantity: 3
         },
         {
-            name: 'Rainbow Smiler Clutch',
+            name: 'Everyday Bags toadstool mushroom handmade fungus felted handbags Shoulder Bags womens bags Felting Handbag designer bags stylish bags',
             category: categories[2]._id,
             description:
-                `This rainbow smiley face clutch is full of happiness and pride.  A very cheerful way to carry around all your daily necessities.
-
-                9.5"x7"
-                
-                Lined, embroidered
-                
-                Glitter vinyl zipper tab details`,
-            origin: `Made in Austin by Realm`,
-            image: 'rainbowsmiler00-360x.jpg',
+                `Elegant everyday bags with an interesting and unusual style, with elements of embroidery and three-dimensional felting. Comfortable to wear on the shoulder. Inside lining fabric , pocket for mobile phone, magnetic closure. Handmade from 100% wool. There is a hard bottom. Width Approx: 42 cm; 16.5 inches Height Approx: 32 cm; 12.5 inches For best result, hand wash in cold water and hang dry in the shade. PLEASE NOTE: The colors of some picture may slightly vary on different monitors. If you have any questions please do not hesitate to contact me!!! Is it a treat to yourself or a gift to your best friend. Thank you for visiting my shop.`,
+            origin: `Made in USA`,
+            image: 'MushroomBag.jpg',
             price: 29.95,
             quantity: 15
         },
         {
-            name: 'Vintage Desert Daze Palm Tote',
+            name: 'Crossbody Felt Bag and Wood, Limited Edition, Long Handle Shoulder Graphite Felt Bag for Women, Stylish Magnetic Snap Everyday Bag for Her',
             category: categories[2]._id,
             description:
-                `A truly unique piece with stunning details and colors that remind us of desert sands. Handwoven in natural palm with colors of sienna and black. 
-
-                Measurements: 10 1/4” In Diameter and 19.5” L from top of handle to bottom of bag`,
-            origin: ``,
-            image: 'vintagedesert00-360x.jpg',
+                `Limited Edition Felt & Wood III is a Graphite Felt Bag designed with a long belt made of washable paper and wooden (oak) handle. It is an original design handmade using a magnetic snap and the user’s comfort
+                in mind.
+                
+                It has modern mobility and thoughtful design. It is designed with innovative features and high-end felt materials for you to carry your littlethings with comfort and style. Try carrying them in your hands or use the long belt to carry your bag on your shoulder. It’s perfect for a walk in your neighborhood or uses them for professional purposes.
+                `,
+            origin: `Made in USA`,
+            image: 'CrossBody.jpg',
             price: 68.00,
             quantity: 3
         },
         {
-            name: 'Sunday Spray / Cooling Aloe Mist',
+            name: 'Virgin Prickly Pear Seed Oil Organic (cold pressed, unrefined)',
             category: categories[3]._id,
             description:
-                `When your skin is hot and bothered, but you're just trying to chill. Instantly soothe sunburned, stressed-out skin with cooling, moisturizing ingredients like natural spearmint, aloe, and cucumber.  We love the instant cooling effect from spearmint, eucalyptus, and cucumber, with healing relief from aloe and prickly pear. Sunday Spray is like a glass of ice water when you need it most. 
+                `Virgin Prickly Pear Seed Oil Organic (cold pressed, unrefined) - secret of super hydrated skin, brightening, wrinkle-reducing, glowing skin.
 
-                Use it when
-                The day after the beach day, post-spin className, any time you need an uplifting, refreshing moment.
+                New Hot Beauty Miracle Product - Prickly Pear Seed Oil, also known as: Cactus seed Oil, Barbary fig oil, Indian fig oil! The secret to super hydrated skin that comes from the desert.
                 
-                Directions
-                Mist liberally over face and body for instant cooling relief and hydration. Chill before use for an especially refreshing moment. Do not apply to broken skin. Re-apply as often as you'd like.               
+                Prickly Pear Seed Oil is one of the most expensive beauty oils in the world.
                 
-                Size: 3.0 oz
-                
-                Smells of cucumber + mint
-                
-                Paraben Free / Phthalate Free / Sulfate Free / Cruelty Free / Vegan 
-                
-                Ingredients: Aloe Barbadensis (Aloe Vera) Leaf Juice, Water (Aqua), Sodium PCA, Potassium Sorbate, Sodium Benzoate, Mentha Spicata (Spearmint) Oil, Eucalyptus Globulus Leaf Oil, Cinnamomum Camphora (Camphor) Bark Oil, Sorbitan Oleate Decylglucoside Crosspolymer, Sodium Chloride, Glycerin, Opuntia Ficus-Indica (Prickly Pear) Fruit Extract, Caprylic/Capric Triglyceride, Cucumis Sativus (Cucumber) Fruit Extract`,
-            origin: `N/A`,
-            image: 'sundayspray00-370x.jpg',
+                Prickly Pear Oil is great for all skin types, and especially for mature skin. It is amazing oil for both people who want to start preventable care for anti-aging and people who address the signs of aging. You will feel the immediate skin-softening effects and your skin will glow.`,
+            origin: `Made in USA`,
+            image: 'SkinCare.jpg',
             price: 22.00,
             quantity: 25
         },
         {
-            name: 'Gold Star',
+            name: 'Original painting,Large wall art,Boho wall décor,Flower painting, Color oil painting, Home decor, Modern art, Abstract art,Bedroom decor',
             category: categories[4]._id,
-            description: 'Moon ornament wrapped with gold stars and flowers',
+            description: 'Original handmade oil painting, frameless/unstretched.',
             origin: `N/A`,
-            image: 'goldstar00-540x.jpg',
-            price: 7.00,
+            image: 'OriginalPainting.jpg',
+            price: 150.00,
             quantity: 30
         },
         {
-            name: 'Sleepy Moons Tea Towel',
+            name: 'Retro Eclectic Colorful Bud Vase/ Cute Ceramic Vase/ Rainbow Pot Planter/ Modern ceramic vase/ pastel color ceramics/ Boho home decor',
             category: categories[4]._id,
-            description:
-                `Sleepy Moons is original artwork screen printed by hand on 100% recycled cotton and is thicker and more absorbent than your average kitchen towel. Fabulous to use as dish towels, as an accent cloth for your dining table, or anything else you can think of!
-
-               measures 30"x30"
-               screen printed by hand with permanent textile ink in black
-               tied with hemp twine and a branded tag
-               
-               WASHING AND CARE
-               
-               The print on this towel is permanent and meant to last. To best preserve the this screen printed cotton good we suggest machine washing on cold in a gentle cycle. Dry on low heat, or lay flat to dry.`,
-            origin: `Made in Georgia`,
-            image: 'sleepymoon00-360x.png',
-            price: 26.00,
+            description:`Approximately 3-3.5" tall. These are bud vases, not full size vases. Handmade decorated. BIG size vases are 5" tall. These aren't the smaller bud vases, and are more comparable to a regular sized vase that holds more flowers.`,
+            origin: `Made in USA`,
+            image: 'CeramicVase.png',
+            price: 50.00,
             quantity: 15
         },
         {
-            name: 'Disappointed But Not Surprised Mug',
+            name: 'Special Design Gold Mirrored Large Wall Clock, Round Luxury Unique Appearance, Real Mirror, Wall Mounted, Latin Numbers',
             category: categories[4]._id,
-            description:
-                `We’ve all had these moments...
-
-                11 oz mug`,
-            origin: `N/A`,
-            image: 'disappointedmug00-360x.jpg',
-            price: 15.00,
+            description:`It will illuminate your home, living room, bedroom or office, add a beautiful image and make you happy.`,
+            origin: `Made in USA`,
+            image: 'WallClock.jpg',
+            price: 180.00,
             quantity: 10
         },
         {
-            name: 'Seeing Eye Throw Pillow Cover',
+            name: 'Ceramic Hanging Flower Plant Pots Sloth Wall Art Home Decor Animal Vase Garden Decoration Gift Ideas Wall Art Wall Decor',
             category: categories[4]._id,
-            description:
-                `These lovelies are screen printed on 100% canvas pillow covers. Refresh your home with some striking new throw pillow designs!
-                
-                - measures 18"x18" (insert measures 20"x20")
-                
-                - envelope closure so that you can easily insert pillow
-                
-                - Screen printed with permanent black ink
-                
-                *Washing Instructions*: Spot cleaning is always best, but you can also machine wash in cold water. Due to the nature of cotton canvas some shrinkage is to be expected. Air dry or tumble dry on low.`,
+            description:`Creative Ceramic Hanging Flower Plant Pots sloth Animal Vase decoration.`,
             origin: `Made in the USA`,
-            image: 'seeingeye00-540x.jpg',
+            image: 'HangingFlower.jpg',
             price: 45.00,
             quantity: 12
         }
