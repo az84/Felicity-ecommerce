@@ -1,5 +1,5 @@
 {
-    "name": "redcatandco-client",
+    "name": "felicity-client",
     "version": "0.1.0",
     "private": true,
     "proxy": "http://localhost:3001/",

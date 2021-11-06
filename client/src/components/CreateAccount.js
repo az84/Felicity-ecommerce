@@ -39,7 +39,7 @@ const CreateAccount = () => {
       <Row>
         <Col>
           <div>
-          <img src={require('./../assets/images/Felicity.png')} width="100%" height="100%" alt="The Red Cat and Co in retro style" />
+          <img src={require('./../assets/images/Felicity.png')} width="100%" height="100%" alt="Felicity" />
           </div>
           <div className="text-center">
             <h2 className="h3 mb-3 font-weight-normal">Create Account</h2>

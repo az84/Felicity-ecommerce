@@ -29,7 +29,7 @@ db.once('open', async () => {
                 ∙ Vintage Red: 100% Cotton // Black: 100% Cotton Slub Chambray 
                 ∙ Approx. 21.5" square`,
             origin: `Made in the USA, by Eradura // Hand Printed by Noisy Neighbors Print`,
-            image: 'dogpack-red00-220x.jpg',
+            image: 'MandalaHoodie.jpg',
             category: categories[0]._id,
             price: 28.00,
             quantity: 15
